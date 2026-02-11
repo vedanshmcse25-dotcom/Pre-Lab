@@ -1,0 +1,10 @@
+<html>
+<head>
+<tittle> Wdprelab</tittle>
+<h1>vedansh mahadule</h1>
+<h2>usn id is CS25127</h2>
+<h3>new git account</h3>
+<h6>new repo</h6>
+<h5>heading tags description</h5>
+<h4>h1-h5</h4>
+</html>
