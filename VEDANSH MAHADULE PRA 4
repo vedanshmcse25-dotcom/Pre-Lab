@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Information</title>
+</head>
+
+<body bgcolor="lightyellow">
+
+    <h2 align="center" style="color:blue;">Student Information</h2>
+
+    <table border="1" align="center" cellpadding="8" cellspacing="0" bgcolor="white">
+        <tr bgcolor="lightblue">
+            <th>Roll No</th>
+            <th>Name</th>
+            <th>Class</th>
+            <th>branch</th>
+            <th>Age</th>
+            <th>City</th>
+        </tr>
+
+        <tr>
+            <td>124</td>
+            <td>VEDANSH MAHADULE</td>
+            <td>B tech</td>
+            <td>CSE  COMPUTER SCIENCE ENG </td>
+            <td>19</td>
+            <td>Nagpur</td>
+        </tr>
+
+        <tr bgcolor="lightgray">
+            <td>125</td>
+            <td>CHAITANYA MAHADULE</td>
+            <td>CSE COMPUTER SCIENCE ENG </td>
+            <td>B tech</td>
+            <td>21</td>
+            <td>Mumbai</td>
+        </tr>
+
+        <tr>
+            <td>126</td>
+            <td>YASH GADE</td>
+            <td>CSE COMPUTER SCIENCE ENG </td>
+            <td>B tech</td>
+            <td>21</td>
+            <td>Pune</td>
+        </tr>
+           
+              <td>127</td>
+            <td>KISHAN GADE</td>
+            <td>IT INFORMATION TECNOLOGY ENG </td>
+            <td>B tech</td>
+            <td>21</td>
+            <td>hyadarabad</td>
+              
+          </tr>
+             <td>128</td>
+            <td>SAMIKSHA DARODE</td>
+            <td>IT INFORMATION TECNOLOGY ENG </td>
+            <td>B tech</td>
+            <td>23</td>
+            <td>BENGLOUR</td>
+        </tr>
+             
+             <td>128</td>
+            <td>RAVINA DARODE</td>
+            <td>IT INFORMATION TECNOLOGY ENG </td>
+            <td>B tech</td>
+            <td>23</td>
+            <td>DELHI</td>
+
+    </table>
+
+</body>
+</html>
