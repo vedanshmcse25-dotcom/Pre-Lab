@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Resume</title>
+    <style>
+        body{
+            font-family: Arial, sans-serif;
+            margin:40px;
+            background-color:CREAM;
+        }
+        h1{
+            color:BEACH;
+        }
+        
+        table{
+            border-collapse: collapse;
+            width:80%;
+        }
+        table, th, td{
+            border:1px solid black;
+            padding:8px;
+        }
+        th{
+            background-color:CREAM;
+        }
+    </style>
+</head>
+
+<body>
+
+<h1>My Resume</h1>
+
+<!-- Image Section -->
+<img src="C:\Users\CCLab\Downloads\Vedansh.jpg" alt="Vedansh.jpg" width="150" "height = "150" align="right">
+
+<h2>Personal Information</h2>
+<ul>
+    <li><b>Name:</b> Vedansh P Mahadule</li>
+    <li><b>Email:</b> vedanshm.cse25@sbjit.edu.in@email.com</li>
+    <li><b>Phone:</b> +91 9226482364</li>
+    <li><b>LinkedIn:</b> 
+        <a href="https://www.linkedin.com" target="_blank">Visit Profile</a>
+    </li>
+</ul>
+
+<h2>Career Objective</h2>
+<p>
+To obtain a challenging position where I can use my skills and grow professionally.
+</p>
+
+<h2>Skills</h2>
+<ul>
+    <li>HTML</li>
+    <li>CSS</li>
+    <li>PROGRAMING PROBLEM SOLVING</li>
+    <li>Python</li>
+    <li>C</li>
+    <li>C++</li>
+</ul>
+
+<h2>Education</h2>
+
+<table>
+<tr>
+    <th>Qualification</th>
+    <th> RTMNU UNEVERSITY</th>
+    <th>year</th>
+    <th>Percentage</th>
+</tr>
+
+<tr>
+    <td>Bachelor of Computer Science Engineering</td>
+    <td>S B JAIN INTITUTED OF TECNOLOGY  University</td>
+    <td>2025</td>
+    <td>85%</td>
+</tr>
+
+<tr>
+    <td>Higher Secondary</td>
+    <td> DNYANGANGA JR COLLAGE MOUDA COLLAGE</td>
+    <td>2025</td>
+    <td>80%</td>
+</tr>
+
+<tr>
+    <td>Secondary</td>
+    <td>DANYANGANAGA CONVERT MOUDA SCHOOL</td>
+    <td>2023</td>
+    <td>82%</td>
+</tr>
+
+</table>
+
+<h2>Projects</h2>
+<ol>
+    <li>Personal Portfolio Website</li>
+    <li>Student Management System</li>
+    <li>Online Quiz Application</li>
+    <li>python project </li>
+</ol>
+
+<h2>Hobbies</h2>
+<ul>
+    <li>Reading</li>
+    <li>Coding</li>
+    <li>Playing Cricket</li>
+</ul>
+
+<h2>More Information</h2>
+<p>
+Visit my GitHub: 
+<a href="https://github.com" target="_blank">GitHub Profile</a>
+</p>
+
+</body>
+</html>
