@@ -1,0 +1,84 @@
+<html>
+<head>
+    <title>Scholarship Registration Form</title>
+</head>
+
+<body>
+
+<h2>Scholarship Registration Form</h2>
+
+<form>
+
+<!-- Personal Information -->
+<fieldset>
+<legend>Personal Information</legend>
+
+<label>Full Name:</label><br>
+<input type="text" name="fullname"><br><br>
+
+<label>Email:</label><br>
+<input type="email" name="email"><br><br>
+
+<label>Phone Number:</label><br>
+<input type="tel" name="phone"><br><br>
+
+<label>Date of Birth:</label><br>
+<input type="date" name="dob"><br><br>
+
+<label> Address:</label><br>
+<input type="address" name="address"><br><br>
+
+</fieldset>
+
+<br>
+
+<!-- Gender Selection -->
+<fieldset>
+<legend>Gender</legend>
+
+<input type="radio" name="gender" value="male"> Male<br>
+<input type="radio" name="gender" value="female"> Female<br>
+<input type="radio" name="gender" value="other"> Other<br>
+
+</fieldset>
+
+<br>
+
+<!-- Course Selection -->
+<fieldset>
+<legend>Select Your Course</legend>
+
+<select name="course">
+<option value="">--Select Course--</option>
+<option value="B TECH">B TECH</option>
+<option value="M TECH">M TECH</option>
+<option value="MBA">MBA</option>
+<option value="MCA">MCA</option>
+<option value="BCA">BCA</option>
+</select>
+
+</fieldset>
+
+<br>
+
+<!-- Skills / Interests -->
+<fieldset>
+<legend>COLLLAGES </legend>
+
+<input type="checkbox" name="COLLAGE 1"> RAMDEOVBABA UNEVERSITY COLLAAGE OF ENGNEERING NAGPUR"> <br>
+<input type="checkbox" name="COLLAGE 2"> YASHVANTRAVO CHAVHAN COLLAGE OF ENGNEERING NAGPUR"> <br>
+<input type="checkbox" name="COLLAGE 3"> G H RAISONI COLLAGE OF ENGNEERING NAGPUR"> <br>
+<input type="checkbox" name="COLLAGE 4"> S B JAIN INSTITUED OF TECNOLOGY NAGPUR"> <br>
+<input type="checkbox" name="COLLAGE 5"> PRIYADARSINI COLLAGE OF ENGNEERING NAGPUR"> <br>
+</fieldset>
+
+<br>
+
+<!-- Submit Button -->
+<input type="submit" value="Register">
+<input type="reset" value="Clear">
+
+</form>
+
+</body>
+</html>
