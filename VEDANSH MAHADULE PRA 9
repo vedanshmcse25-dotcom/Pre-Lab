@@ -1,0 +1,92 @@
+<html>
+<head>
+<title>Scholarship Registration Form</title>
+<style>
+/Using column-count for layout/
+form {
+column-count: 3; /divide form into 3 columns /
+column-gap: 30px; /* space between columns /
+/ Responsive Design /
+@media screen and (max-width: 600px) {
+form
+column-count: 1; /single column on small screens /
+</style>
+</head>
+<body bgcolor="lightblue">
+<h2 align="center">Scholarship Registration Form</h2>
+<form>
+<fieldset>
+<legend>Personal Details</legend>
+Full Name:
+<input type="text" name="name"><br><br>
+Date of Birth:
+<input type="date" name="dob"><br><br>
+Email:
+<input type="email" name="email"><br><br>
+Mobile Number:
+<input type="text" name="mobile"><br><br>
+Gender:
+<input type="radio" name="gender"> Male
+<input type="radio" name="gender"> Female
+<input type="radio" name="gender"> Other
+</fieldset>
+<br>
+<fieldset>
+<legend>Education Details</legend>
+Branch:
+<select name="branch">
+<option>Select Branch</option>
+<option>CSE</option>
+<option>AIML</option>
+<option>AIDS</option>
+<option>Mechanical engg</option>
+</select>
+<br><br>
+Year of Study:
+<select name="year">
+<option>1st Year</option>
+<option>2nd Year</option>
+<option>3rd Year</option>
+<option>4th Year</option>
+</select>
+<br><br>
+College Name:
+<select name="college">
+<option>Select College</option>
+<option>YCCE</option>
+<option>RAISONI</option>
+<option>SBJIT</option>
+<option>PCE</option>
+</select>
+</fieldset>
+<br>
+<fieldset>
+<legend>Scholarship Details</legend>
+Category:
+<input type="radio" name="category"> SC
+<input type="radio" name="category"> ST
+<input type="radio" name="category"> OBC
+<input type="radio" name="category"> General
+<br><br>
+Annual Family Income:
+<select name="income">
+<option>Below 1 Lakh</option>
+<option>1 - 3 Lakh</option>
+<option>3 - 6 Lakh</option>
+<option>Above 6 Lakh</option>
+</select>
+</fieldset>
+<br>
+<fieldset>
+<legend>Documents Submitted</legend>
+<input type="checkbox"> Aadhaar Card<br>
+<input type="checkbox"> Marksheet<br>
+<input type="checkbox"> Income Certificate<br>
+<input type="checkbox"> Caste Certificate
+</fieldset>
+<br>
+<input type="submit" value="Submit">
+<input type="reset" value="Reset">
+</form>
+</body>
+</html>
