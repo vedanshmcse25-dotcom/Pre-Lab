@@ -1,0 +1,23 @@
+<html>
+<head>
+<title>Iframe Example</title>
+</head>
+<body>
+<h1 align="center">HTML Frames (Iframe) Demo</h1>
+<!-- Map Section -->
+<h2>Google Map</h2>
+<iframe
+src="https://www.google.com/maps?q=Nagpur&output=embed"
+width="500"
+height="300">
+</iframe>
+<br><br>
+<!-- External Webpage Section -->
+<h2>External Webpage</h2>
+<iframe
+src="https://www.wikipedia.org"
+width="500"
+height="300">
+</iframe>
+</body>
+</html>
